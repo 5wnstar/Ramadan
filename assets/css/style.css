@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  margin: 0px;
+  background-color: navy;
+  height: 90px;
+}
+main {
+  width: 95%;
+  height: 95vh;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 2%;
+  border-radius: 1rem;
+  margin-top: 1%;
+}
+main .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+main .wrapper .navlinks {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+main .wrapper .navlinks a {
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+main .wrapper .navbuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-left: 5rem;
+}
+main .wrapper .navbuttons .meta {
+  background-color: orangered;
+  border: 10rem;
+  width: 5rem;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  margin-top: 1rem;
+  text-decoration: none;
+  align-items: center;
+}
+main .wrapper .navbuttons .meta2 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+main .center {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-left: 40rem;
+  margin-top: 9rem;
+  color: white;
+}
+main .center h1 {
+  align-items: center;
+  width: 200px;
+  margin-left: 5rem;
+  font-weight: bolder;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+main .center p {
+  width: 25rem;
+}
+main .center .tag {
+  margin-top: 1rem;
+}
+main .center a {
+  background-color: orangered;
+  border: 1px solid orangered;
+  width: 8rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 8.5rem;
+  margin-top: 3rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  align-items: center;
+}
